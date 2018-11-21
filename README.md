@@ -13,7 +13,7 @@ This repo is build to cover ALL edge cases and concepts so that a beginner can g
 
 ## Usage
 
-Copy all the problems into your IDE with a good terminal **OR** a tool like [Javascript Replit](https://repl.it/site/languages/javascript)
+Copy all the problems from main.js into your IDE with a good terminal **OR** a tool like [Javascript Replit](https://repl.it/site/languages/javascript)
 
 Then, one problem at a time - make a prediction on **WHAT you think will be logged** by the function.
 
