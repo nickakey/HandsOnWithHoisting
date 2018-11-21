@@ -1,6 +1,8 @@
 /*Hoisting means that variable declarations and function declarations (but not assignments) 
 are hoisted to the top of their scope, and declared before anything other code runs.*/
 
+/* in all these questions... ask yourself... WHAT WILL BE CONSOLE LOGGED? */
+
 function problemOne() {
   console.log(num);
 };
