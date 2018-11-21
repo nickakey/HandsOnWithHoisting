@@ -1,8 +1,7 @@
 # Hands On With Hoisting
 Learning hoisting in Javascript? Don't just read - DO! With these **11 Hoisting Problems.** 
 
-
-<span style="display:block;text-align:center">![Test Automation](https://media1.giphy.com/media/QCcobORyhH1lK/giphy.gif?cid=3640f6095bf4caa17641616267501501)</span>
+![Gif of hoisting fail](https://media1.giphy.com/media/QCcobORyhH1lK/giphy.gif?cid=3640f6095bf4caa17641616267501501)
 
 ## Why?
 
@@ -29,3 +28,6 @@ _If your prediction was correct_ - great! Next problem.
 Do you know some hoisting edge cases that are unaddressed by this problem set? 
 
 Please make a Pull Request and I'll be happy to add :)
+
+## Shoutouts
+Shout out to Bhuvan Malik for being the source of many of these hoisting problems! Check out his [excellent article](https://medium.freecodecamp.org/function-hoisting-hoisting-interview-questions-b6f91dbc2be8) here.
