@@ -1,18 +1,28 @@
 /*Hoisting means that variable declarations and function declarations (but not assignments) 
 are hoisted to the top of their scope, and declared before anything other code runs.*/
 
-/* in all these questions... ask yourself... WHAT WILL BE CONSOLE LOGGED? */
+/*INSTRUCTIONS: 
+1: Fill in prediction with what you think will happen.
+2: Uncomment the invocation, and run the code.
+3: Write in actual what really happened. 
+
+If it matches, GREAT! If not, review tomorrow! */
+
 
 function problemOne() {
   console.log(num);
 };
-//problemOne();
+//problemOne();    
+//Prediction:
+//Actual:
 
 function problemTwo() {
   console.log(num);
   var num;
 };
 //problemTwo();
+//Prediction:
+//Actual:
 
 function problemThree() {
   console.log(num);
@@ -20,6 +30,8 @@ function problemThree() {
   num = 6;
 };
 //problemThree();
+//Prediction:
+//Actual:
 
 function problemFour() {
   num = 6;
@@ -27,6 +39,8 @@ function problemFour() {
   var num;
 };
 //problemFour();
+//Prediction:
+//Actual:
 
 function problemFive() {
   var x = 1; 
@@ -34,6 +48,8 @@ function problemFive() {
   var y = 2; 
 };
 //problemFive();
+//Prediction:
+//Actual:
 
 function problemSix() {
   function bar() {
@@ -45,6 +61,8 @@ function problemSix() {
   }  
 };
 //problemSix();
+//Prediction:
+//Actual:
 
 function problemSeven() {
   var bar = function() {
@@ -56,6 +74,8 @@ function problemSeven() {
   }
 };
 //problemSeven();
+//Prediction:
+//Actual:
 
 function problemEight() {
   var a = 1;
@@ -68,6 +88,8 @@ function problemEight() {
   console.log(a);
 }
 //problemEight();
+//Prediction:
+//Actual:
 
 function problemNine() {
   var x = 1; 
@@ -75,6 +97,8 @@ function problemNine() {
   let y = 2; 
 };
 //problemNine();
+//Prediction:
+//Actual:
 
 function problemTen() {
   var x = 1; 
@@ -82,6 +106,8 @@ function problemTen() {
   const y = 2; 
 };
 //problemTen();
+//Prediction:
+//Actual:
 
 function problemEleven() {
   function parent() {
@@ -94,5 +120,7 @@ function problemEleven() {
   console.log(parent());
 };
 //problemEleven();
+//Prediction:
+//Actual:
 
 // S/O to this great article! -> https://medium.freecodecamp.org/function-hoisting-hoisting-interview-questions-b6f91dbc2be8
