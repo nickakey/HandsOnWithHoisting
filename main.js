@@ -1,4 +1,4 @@
-/*Hoisting means that variable declarations and function declarations (but not assignments) 
+/*Hoisting means that variable declarations and function expressions (but not assignments) 
 are hoisted to the top of their scope, and declared before anything other code runs.*/
 
 /*INSTRUCTIONS: 
